@@ -4,6 +4,7 @@ alias f='open .'
 # Git
 alias g='git number'
 alias ga='git number add'
+alias gcm='git commit -m'
 alias gd='git diff --color-words='\\w+|.'
 alias gdc='git diff --color-words='\\w+|.' --cached
 alias gf='git fetch --all -p'
