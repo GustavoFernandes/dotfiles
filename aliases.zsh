@@ -4,7 +4,9 @@ alias f='open .'
 # Git
 alias g='git number'
 alias ga='git number add'
-alias gd='git diff --color-words'\\w+|.'
+alias gd='git diff --color-words='\\w+|.'
+alias gdc='git diff --color-words='\\w+|.' --cached
+alias gf='git fetch --all -p'
 
 # Buildr
 alias bcp='buildr clean package'
