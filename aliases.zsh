@@ -1,6 +1,11 @@
 alias ls='ls -AG'
 alias f='open .'
 
+# Git
+alias g='git number'
+alias ga='git number add'
+alias gd='git diff --color-words'\\w+|.'
+
 # Buildr
 alias bcp='buildr clean package'
 alias bcpe='buildr clean package eclipse'
