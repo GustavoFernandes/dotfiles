@@ -1,4 +1,4 @@
-local curr_dir="%{$fg_bold[cyan]%}%c "
+local curr_dir="%{$fg_bold[cyan]%}%~ "
 local ret_status="%(?:%{$fg_bold[green]%}:%{$fg_bold[red]%})$ "
 
 PROMPT='${curr_dir}$(git_prompt_info)${ret_status}%{$reset_color%}'
