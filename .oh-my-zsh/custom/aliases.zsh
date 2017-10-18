@@ -1,6 +1,6 @@
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-alias ls='ls -AG'
+alias ls='ls --almost-all --color=auto'
 alias f='open .'
 
 # Git
