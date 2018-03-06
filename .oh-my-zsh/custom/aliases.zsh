@@ -4,7 +4,7 @@ alias ls='ls --almost-all --color=auto'
 alias f='open .'
 
 # Git
-alias g='git number'
+alias g='git number -s'
 alias ga='git number add'
 alias gcm='git commit -m'
 alias gco='git checkout'
