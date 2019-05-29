@@ -1,0 +1,16 @@
+{
+	"ga" : {
+		"unix" : "git add",
+		"cmd" : "git add $*"
+	},
+	
+	"gb" : {
+		"unix" : "git branch",
+		"cmd" : "git branch $*"
+	},
+	
+	"glog" : "git log --oneline --graph",
+	"gloga" : "git log --oneline --graph --all",
+	
+	"gs" : "git status -sb"
+}
