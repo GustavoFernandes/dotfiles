@@ -1,5 +1,19 @@
 # dotfiles
 
+# v2
+
+Add aliases to `aliases.json` and run `node build.js`
+
+## cmd
+Run `gen\aliases.cmd`
+
+## Prerequisites
+- Install Node.js
+
+---
+
+# v1
+
 ## Prerequisites
 ```
 sudo apt-get install git-all curl zsh
