@@ -8,9 +8,16 @@
 		"unix" : "git branch",
 		"cmd" : "git branch $*"
 	},
+
+	"gd" : "git diff",
+	"gdc" : "git diff --cached",
 	
 	"glog" : "git log --oneline --graph",
 	"gloga" : "git log --oneline --graph --all",
 	
-	"gs" : "git status -sb"
+	"gs" : "git status -sb",
+
+	"np" : {
+		"cmd" : "\"C:\\Program Files\\Notepad++\\notepad++.exe\" $*"
+	}
 }
