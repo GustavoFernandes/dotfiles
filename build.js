@@ -7,10 +7,10 @@ let environments = {
         }
     },
     unix: {
-        out: 'TODO\n',
+        out: '',
         filename: 'unix',
         writeAlias: function(alias, value) {
-            // TODO
+            this.out += `alias ${alias}='${value}'\n`;
         }
     }
 };
