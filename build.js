@@ -3,7 +3,7 @@ let environments = {
         out: '@echo off\n\n',
         filename: 'aliases.cmd',
         writeAlias: function(alias, value) {
-            this.out += `DOSKEY ${alias}=${value}\n`;
+            this.out += `DOSKEY ${alias}=${value} $*\n`;
         }
     },
     unix: {

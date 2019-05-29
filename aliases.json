@@ -1,23 +1,13 @@
 {
-	"ga" : {
-		"unix" : "git add",
-		"cmd" : "git add $*"
-	},
-	
-	"gb" : {
-		"unix" : "git branch",
-		"cmd" : "git branch $*"
-	},
-
+	"ga" : "git add",
+	"gb" : "git branch",
 	"gd" : "git diff",
 	"gdc" : "git diff --cached",
-	
 	"glog" : "git log --oneline --graph",
 	"gloga" : "git log --oneline --graph --all",
-	
 	"gs" : "git status -sb",
 
 	"np" : {
-		"cmd" : "\"C:\\Program Files\\Notepad++\\notepad++.exe\" $*"
+		"cmd" : "\"C:\\Program Files\\Notepad++\\notepad++.exe\""
 	}
 }
