@@ -16,7 +16,7 @@ let environments = {
 };
 
 let fs = require('fs');
-let aliases = JSON.parse(fs.readFileSync('./aliases.json', 'utf8'));
+let aliases = require('./aliases.json');
 
 for (let alias in aliases) {
     let value = aliases[alias];
