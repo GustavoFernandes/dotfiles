@@ -1,8 +1,9 @@
 {
-	"ga" : "git add",
+	"ga" : "git add -v",
 	"gb" : "git branch",
 	"gd" : "git diff",
 	"gdc" : "git diff --cached",
+	"gdw" : "git diff --color-words=\"\\w+|.\"",
 	"glog" : "git log --oneline --graph",
 	"gloga" : "git log --oneline --graph --all",
 	"gs" : "git status -sb",
