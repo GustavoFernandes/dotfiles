@@ -3,6 +3,7 @@ let environments = {
         out: '@echo off\n\n',
         filename: 'aliases.cmd',
         writeAlias: function(alias, value) {
+            value = value.replace(/&/g, '$T'); // replace all ampersands with command separator $T
             this.out += `DOSKEY ${alias}=${value} $*\n`;
         }
     },
