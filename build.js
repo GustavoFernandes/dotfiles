@@ -7,6 +7,15 @@ let environments = {
             this.out += `DOSKEY ${alias}=${value} $*\n`;
         }
     },
+    powershell: {
+        out: '',
+        filename: 'aliases.ps1',
+        writeAlias: function(alias, value) {
+            let functionName = `alias-${alias}`;
+            this.out += `function ${functionName} { ${value} $args }\r\n` +
+                        `Set-Alias -Name ${alias} -Value ${functionName}\r\n`;
+        }
+    },
     unix: {
         out: '',
         filename: 'unix',
